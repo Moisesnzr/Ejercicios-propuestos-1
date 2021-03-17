@@ -1,10 +1,10 @@
 /*
-    1) Un videoclub que alquila películas en video almacena la información de sus películas en una tabla llamada "peliculas"; para cada película necesita los siguientes datos:
+    Ejercicio #1 - Un videoclub que alquila pelÃ­culas en video almacena la informaciÃ³n de sus pelÃ­culas en una tabla llamada "peliculas"; para cada pelÃ­cula necesita los siguientes datos:
     
      -nombre, cadena de caracteres de 20 de longitud,
      -actor, cadena de caracteres de 20 de longitud,
-     -duración, valor numérico entero que no supera los 3 dígitos.
-     -cantidad de copias: valor entero de un sólo dígito (no tienen más de 9 copias de cada película).
+     -duraciÃ³n, valor numÃ©rico entero que no supera los 3 dÃ­gitos.
+     -cantidad de copias: valor entero de un sÃ³lo dÃ­gito (no tienen mÃ¡s de 9 copias de cada pelÃ­cula).
 */
 
 
@@ -31,11 +31,11 @@ insert into peliculas values ('Mujer bonita','Richard Gere',120.20, 4);
 
 select *from peliculas;
 
-insert into peliculas values ('Greystoke, la leyenda de Tarzán, el rey de los monos (1984)','Christopher Lambert',143.20, 6);
+insert into peliculas values ('Greystoke, la leyenda de TarzÃ¡n, el rey de los monos (1984)','Christopher Lambert',143.20, 6);
 
 
 /*
-    2) Una empresa almacena los datos de sus empleados en una tabla "empleados" que guarda los siguientes datos: nombre, documento, sexo, domicilio, sueldobasico.
+    Ejercicio #2 - Una empresa almacena los datos de sus empleados en una tabla "empleados" que guarda los siguientes datos: nombre, documento, sexo, domicilio, sueldobasico.
 */
 
 drop table empleados;
@@ -57,7 +57,7 @@ insert into empleados values ('Bartolome Barrios', '27888999', 'm', 'Urquiza 479
 
 select *from empleados;
 
-insert into empleados values ('Moises Nuñez', '22333555', 'masculino', 'La Sosua 155', 850);
+insert into empleados values ('Moises NuÃ±ez', '22333555', 'masculino', 'La Sosua 155', 850);
 insert into empleados values ('Maria Teresa', '22333789', 'masculino', 'La Sosua 155', 105000.6);
 
 drop table empleados;
