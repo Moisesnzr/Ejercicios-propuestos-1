@@ -1,7 +1,7 @@
 
 /* 
-	1- Necesita almacenar los datos de amigos en una tabla. Los datos que 
-	guardar· ser·n: apellido, nombre, domicilio y telÈfono.
+	Ejecicio #1- Necesita almacenar los datos de amigos en una tabla. Los datos que 
+	guardar√° ser√°n: apellido, nombre, domicilio y tel√©fono.
 */
 
 drop table agenda;
@@ -30,8 +30,8 @@ create table agenda(
 select *from all_tables;
 
 /* 
-	2- Necesita almacenar informaciÛn referente a los libros de su 
-	biblioteca personal. Los datos que guardar· ser·n: tÌtulo del libro, 
+	Ejercicio #2- Necesita almacenar informaci√≥n referente a los libros de su 
+	biblioteca personal. Los datos que guardar√° ser√°n: t√≠tulo del libro, 
 	nombre del autor y nombre de la editorial.
 */
 
