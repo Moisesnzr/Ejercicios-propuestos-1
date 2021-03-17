@@ -1,5 +1,5 @@
 
--- 1) Trabaje con la tabla "agenda" que almacena información de sus amigos.
+-- Ejercicio #1 - Trabaje con la tabla "agenda" que almacena informaciÃ³n de sus amigos.
 
 drop table agenda;
 
@@ -27,7 +27,7 @@ drop table agenda;
 drop table agenda;
 
 
--- 2) Trabaje con la tabla "libros" que almacena los datos de los libros de su propia biblioteca.
+-- Ejercico #2 - Trabaje con la tabla "libros" que almacena los datos de los libros de su propia biblioteca.
 
 drop table libros;
 
